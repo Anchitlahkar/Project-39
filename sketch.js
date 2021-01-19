@@ -2,8 +2,8 @@ var Ground,
     player,
     Space = "space",
     gameState = "start", score = 0,
-    bulletImg, bulletGroup, boxGroup, bullets, weapon = 10,
-    zombie1, zombie2, zombie3, zombie4, obstaclesGroup, jumpSlab, JumpGroup, powerJump = 5
+    bulletImg, bulletGroup, boxGroup, bullets, weapon = 20,
+    zombie1, zombie2, zombie3, zombie4, obstaclesGroup, jumpSlab, JumpGroup, powerJump = 10
 
 
 function preload() {
