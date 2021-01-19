@@ -23,7 +23,7 @@ function preload() {
 }
 
 function setup() {
-    canvas = createCanvas(windowWidth, 500)
+    canvas = createCanvas(windowWidth, 600)
 
     boxGroup = new Group();
     bulletGroup = new Group();
@@ -116,7 +116,7 @@ function draw() {
 
         }
         if (obstaclesGroup.collide(player)) {
-            // gameState = "end"
+            gameState = "end"
             console.log(gameState)
         }
         move()
