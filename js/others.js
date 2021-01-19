@@ -32,10 +32,10 @@ function spawnBullets(){
     if (keyDown("space")){
         bullets = createSprite(player.x-150,windowHeight/2+130,10,80);
         bullets.addImage(bulletImg);
-        bullets.debug = false; 
+        bullets.debug = false;
+        bullets.velocityX = 10
         bullets.setCollider("rectangle",0,0,50,50)
         bullets.y = player.y-15
-        bullets.visible=false
 
         bullets.scale = 0.2
         bullets.lifetime = 500;
